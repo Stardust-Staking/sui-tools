@@ -25,6 +25,8 @@ These instructions will get you a copy of the project up and running on your loc
 Before you begin, ensure you have met the following requirements:
 
 - You have installed the required software: Git, Sui Client [https://github.com/MystenLabs/sui](https://github.com/MystenLabs/sui)
+- Add sui binary to your path
+- Check that sui client is installed: run `sui client` command
 - You have a basic understanding of Git and Bash scripting
 
 ## Installation
