@@ -1,11 +1,11 @@
 # SUI Withdrawer/Merger
 
-## This script make following activions
+## This script make following actions:
 - withdraws all staked 0x3::staking_pool::StakedSui objects
-- merged all sui::SUI coin objects into PRIMARY_COIN
+- merges all sui::SUI coin objects into PRIMARY_COIN
 
 ## Prerequisites
-- tools: Bash, Curl, jq, grep
+- Tools: Bash, Curl, jq, grep
 - Sui binary installed and avaialve
 - Validator addreess imported into Sui client
 
@@ -14,7 +14,7 @@
 
 First, you need to set your parameters in .env. 
 - copy `.env-example` into `.env`
-- .env in text editor and change 
+- open `.env` in the text editor and change 
 
 ```
 RPC="https://sui-rpc-mainnet.testnet-pride.com:443"
@@ -24,7 +24,7 @@ PRIMARY_COIN=""
 ```
 
 
-Tested on MacOS with homebrew
+### Note: Tested on MacOS with homebrew
 
 ## TODO / roadmap:
 
