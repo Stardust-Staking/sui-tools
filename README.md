@@ -35,7 +35,7 @@ To clone and run these tools, execute the following commands in your terminal:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/username/sui-validator-tools
+$ git clone https://github.com/Stardust-Staking/sui-tools
 ```
 
 ## Usage
