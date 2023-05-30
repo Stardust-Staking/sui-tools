@@ -1,2 +1,3 @@
 /scripts/rewards/.env
+/scripts/rewards/sui.log.*
 .idea
