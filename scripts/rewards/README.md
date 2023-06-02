@@ -36,7 +36,7 @@ PRIMARY_COIN=""
 
 # Disclaimer
 
-This software is provided as-is with no warranty or guarantees. We take no responsibility for any damages or losses that may occur from using the software. All usage of this software is at your own risk and you are fully responsible for any damages, data loss, or issues that may arise. Please ensure that you understand what the script does before running it.
+This software is provided as-is with no warranty or guarantees. We take no responsibility for any damages or losses that may occur from using the software. All usage of this software is at your own risk and you are fully responsible for any damages, data loss, loss of funds, or issues that may arise. **Please ensure that you understand what the script does before running it**.
 
 The software is open-source and we welcome contributions, but we do not assume any liability for any issues that arise from modifications, contributions, or use of this software.
 
