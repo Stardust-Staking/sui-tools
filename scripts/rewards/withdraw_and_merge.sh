@@ -7,6 +7,14 @@ address="${ADDRESS}"
 gas_object_to_pay="${GAS_OBJECT_TO_PAY}"
 primary_coin="${PRIMARY_COIN}"
 
+# Check RPC server
+status_code=$(curl --write-out %{http_code} --silent --output /dev/null $rpc)
+
+if [ $status_code -ne 200 ]; then
+    echo "Server $rpc did not return HTTP 200. Please check your server URL in the .env"
+    exit 1
+fi
+
 # Get address's SuiStaked objects
 ids=$(curl -s -X POST -H "Content-Type: application/json" --data "{ \"jsonrpc\":\"2.0\", \"method\":\"suix_getStakes\",\"id\":1, \"params\": [\"$address\"]}" $rpc | jq -r '.result[].stakes[].stakedSuiId')
 
